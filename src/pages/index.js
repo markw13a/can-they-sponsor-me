@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react"
+import { Helmet } from "react-helmet";
 import Check from '../assets/check.svg';
 import Cross from '../assets/cross.svg';
 import "../styles/index.css";
@@ -109,6 +110,12 @@ const IndexPage = () => {
 
   return (
     <main id="main">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Can they sponsor me? Check UK work visa sponsors
+        </title>
+      </Helmet>
       <div id="content-container">
         <div className="introduction">
           <h2 className="header"> Can they sponsor me? </h2>
