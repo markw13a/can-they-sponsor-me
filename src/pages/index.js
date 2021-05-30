@@ -23,7 +23,7 @@ const ResultsBox = ({ resultsString, isResultSuccessful }) => {
 const ResultsBoxFailure = ({ resultsString }) => (
   <>
     <p className="results-box__text">
-      <b>{resultsString}</b> <span className="results-box__failure-text">cannot</span> sponsor a Tier 2 work visa
+      <b>{resultsString}</b> cannot sponsor a work visa
     </p>
     <p className="results-box__sub-text">
       Note that you need to enter the name the company used to register with HMRC. This may differ from their trade name.
@@ -34,7 +34,7 @@ const ResultsBoxFailure = ({ resultsString }) => (
 const ResultsBoxSuccess = ({ resultsString }) => (
   <>
     <p> 
-      <b>{resultsString}</b> <span className="results-box__success-text">can</span> sponsor a tier 2 visa 
+      <b>{resultsString}</b> can sponsor a work visa 
     </p>
     <Check className="icon__check" />
   </>
