@@ -43,7 +43,7 @@
     font-size: 1.25rem;
     flex: 1;
     border-bottom: 1px solid grey;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
 }
 .auto-complete__suggestions {
     position: absolute;
