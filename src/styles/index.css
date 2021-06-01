@@ -13,7 +13,7 @@
 }
 
 #content-container {
-    width: 600px; 
+    max-width: 600px; 
     padding: 1.5rem;
 }
 
